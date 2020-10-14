@@ -1,0 +1,31 @@
+ #include <iostream>
+ #include <string>
+ 
+ using namespace std;
+ 
+ int main() {
+ 	
+ 	string country;
+ 	char dollar;
+ 	float GDP;
+ 	int year;
+ 	
+ 	
+  cout <<"enter country name:";
+ getline( cin, country);
+ 
+ cout <<"enter dollar symbol:";
+ cin >> dollar;
+ 
+ cout <<"enter GDP:";
+ cin >> GDP;
+ 
+ cout <<"enter year:";
+ cin >> year;
+ 
+ 
+ cout << "As economic reforms picked up the pace, " <<country<< "'s GDP grew five-fold to reach US " <<dollar<< GDP << " trillion in " <<year<< " ( as per IMF estimates)" ;
+ 
+ return 0;	
+ 	
+ 	}
